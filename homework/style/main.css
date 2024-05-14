@@ -6,6 +6,8 @@
     font-family: inter;
     src: url(../fonts/Inter-Medium.woff);
 }
+
+
 *{
     margin: 0;
     padding: 0;
@@ -53,20 +55,22 @@ a{
     display: flex;
     gap: 28px;
     list-style: none;   
-    color:   #8B8E99;
+    color: #8B8E99;
     font-size: 16px;
     font-family: Poppins;
     
 }
-.navbar__item:{
+.navbar__item{
     cursor: pointer;
     transition: .5s;
+
 }
 .navbar__item:hover{
     color:  #ffffff;
     position: relative;
     margin-left: 10px;
     transition: .5s;
+
 }
 .logos{
     display: flex;

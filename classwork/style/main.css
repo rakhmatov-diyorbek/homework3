@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 200px;
+    height: 700px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    display: flex;
+    text-align: center;
+ 
+    
+}
+.box1{
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+    background: red;
+}
